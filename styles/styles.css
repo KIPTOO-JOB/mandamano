@@ -1,0 +1,119 @@
+.nav {
+	display: flex;
+	justify-content: center;
+	background: #000;
+	padding: 2rem;
+	z-index: 10000;
+	position: fixed;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: 1rem 0;
+	background: rgb(0, 0, 0);
+	color: azure;
+	z-index: 1000;
+}
+.header {
+	color: #fff;
+}
+.Form {
+	box-shadow: 0 1px 3px #888888a4;
+	border-radius: 0.3rem;
+	margin-top: 15%;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	padding: 5rem;
+	gap: 15px;
+}
+.found {
+	background: #000;
+	color: #fff;
+	margin: 5px;
+}
+input[type="text"] {
+	padding: 10px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	font-size: 16px;
+	width: 100%;
+	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"]:focus {
+	border-color: #6c7279; /* Blue color on focus */
+	outline: none;
+}
+input[type="number"] {
+	padding: 10px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	font-size: 16px;
+	width: 100%;
+	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+input[type="number"]:focus {
+	border-color: #6c7279; /* Blue color on focus */
+	outline: none;
+}
+button {
+	padding: 12px;
+	background-color: #007bff; /* Blue background */
+	border: none;
+	border-radius: 0.2rem;
+	color: #fff;
+	font-size: 16px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+button:hover {
+	background-color: #67a6a7; /* Darker blue on hover */
+}
+
+button:active {
+	background-color: #004494; /* Even darker blue when pressed */
+}
+.photo {
+	border-radius: 0.4rem;
+	height: 450px;
+}
+.citizen-container {
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	margin-bottom: 20px;
+	padding: 20px;
+	width: 80%;
+	max-width: 600px;
+}
+
+.citizen-container h1,
+.citizen-container p {
+	margin: 10px 0;
+}
+
+.citizen-container .photo {
+	display: block;
+	max-width: 100%;
+	border-radius: 8px;
+	margin: 10px 0;
+}
+
+.citizen-container .found {
+	background-color: #28a745;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.citizen-container .found:hover {
+	background-color: #218838;
+}
