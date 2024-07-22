@@ -3,7 +3,7 @@ console.log("hello");
 document.addEventListener("DOMContentLoaded", () => {
 	const wasee = document.querySelector("#wasee");
 	console.log("wozaa");
-	const appUrl = "http://localhost:3000/citizens";
+	const appUrl = "https://maandamano-db.vercel.app/citizens";
 
 	// Fetch and display citizens
 	fetch(appUrl)
