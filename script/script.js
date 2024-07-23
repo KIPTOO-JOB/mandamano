@@ -80,7 +80,9 @@ document.addEventListener("DOMContentLoaded", () => {
 			.then((citizen) => {
 				console.log(citizen);
 				displayCitizens(citizen);
-			})
+			});
+		form
+			.reset()
 			// erros
 			.catch((error) => console.error("Error posting data:", error));
 
