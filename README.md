@@ -56,4 +56,3 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 
 - [ ] Adding a form for rogue Police officers
 - [ ] Adding a place to post Pictures of police oficers that are kidnapping pepole
-- [ ] Adding a place to post Pictures of police oficers that are kidnapping pepole
